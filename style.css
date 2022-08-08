@@ -23,4 +23,72 @@ body {
 
   background: var(--bg-main);
   color: var(--secondary-color);
+
+  font-family: 'Roboto Serif', serif;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+  text-transform: initial;
+  color: var(--paragraph);
+}
+
+h2 {
+  font-size: 1.8rem;
+
+  background: var(--bg-secondary);
+
+  padding-block: 0.6rem;
+
+  border-radius: 0.5rem;
+}
+
+h3,
+.price {
+  font-size: 1.6rem;
+}
+
+header,
+h2 {
+  text-align: center;
+}
+
+header p,
+section ul li .details p {
+  font-size: 1.4rem;
+}
+
+header {
+  padding: 3.2rem;
+}
+
+header h1 {
+  font-size: 2.8rem;
+}
+
+header h1 span {
+  color: var(--primary-color);
+}
+
+section {
+  width: 60%;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  margin-block: 2.4rem;
+
+  list-style: none;
+}
+
+section ul li .details .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 0.8rem;
 }
