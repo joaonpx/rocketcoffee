@@ -92,3 +92,7 @@ section ul li .details .title {
 
   margin-bottom: 0.8rem;
 }
+
+section ul li .details .description p {
+  width: 70%;
+}
