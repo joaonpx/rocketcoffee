@@ -55,7 +55,7 @@ h2 {
 }
 
 header p,
-section ul li .details p {
+.details p {
   font-size: 1.4rem;
 }
 
@@ -85,7 +85,7 @@ section ul {
   list-style: none;
 }
 
-section ul li .details .title {
+.details .title {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -93,6 +93,10 @@ section ul li .details .title {
   margin-bottom: 0.8rem;
 }
 
-section ul li .details .description p {
+.details p {
+  line-height: 2.1rem;
+}
+
+.details .description p {
   width: 70%;
 }
